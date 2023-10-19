@@ -10,6 +10,7 @@ import pdb
 api_url = "https://localhost:7064/writelog"  # Replace with the actual API URL this is the Visual Studio debug uri
 # Create a session and set the verify parameter to False
 session = requests.Session()
+#this is to bypass the Visual Studio Cert, obviously remove this, or change to "True" when running somewhere with a trusted cert.
 session.verify = False
 # Define the log message
 log_message = {
