@@ -13,7 +13,7 @@ session = requests.Session()
 session.verify = False
 # Define the log message
 log_message = {
-    "Message": "Hello, Raspberry Pi!",
+    "Message": "Hello Raspberry Pi!",
     "MessageType": "INFO",
     "MessageDateTime": "2023-10-18T14:30:00"
 }
