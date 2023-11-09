@@ -1,7 +1,7 @@
 # BlobLogWriterMinApi
 
 BlobLogWriterMinApi is a .NET Core 6 Minimal API project that allows you to log messages to Azure Blob Storage and provides functionality to list and download log files from the storage.
-
+This is a sample project that has an api that will log to Azure Blog Storage, which would be called by the python clients on a RaspberryPi or other IOT device.
 ## Setup
 
 To set up the project with actual Azure Blob Storage, follow these steps:
